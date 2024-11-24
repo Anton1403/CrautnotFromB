@@ -10,6 +10,7 @@ COPY ["Crautnot/Crautnot/Crautnot.csproj", "Crautnot/"]
 RUN dotnet restore "Crautnot/Crautnot.csproj"
 COPY . .
 WORKDIR "/src/Crautnot"
+RUN dotnet clean "Crautnot.csproj"
 RUN dotnet build "Crautnot.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 FROM build AS publish

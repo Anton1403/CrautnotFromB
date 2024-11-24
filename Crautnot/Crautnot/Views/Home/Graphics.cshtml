@@ -1,0 +1,318 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewData["Title"]</title>
+    <!-- Подключение библиотеки Google Charts -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <style>
+        /* Стили для контейнера графика */
+        #cryptoChart {
+            width: 100%; /* Ширина контейнера на всю доступную ширину */
+            height: 500px; /* Высота графика, можно настроить по необходимости */
+        }
+
+        #controls {
+            margin: 20px 0;
+            width: 80%;
+        }
+
+        #chartContainer {
+            width: 70%; /* Ширина контейнера ползунка */
+            margin: 0 auto;
+            position: relative;
+        }
+
+        #rangeContainer {
+            position: relative;
+            text-align: center;
+        }
+
+        #timeRange {
+            width: 100%;
+        }
+
+        .indicator {
+            position: absolute;
+            width: 2px;
+            height: 10px;
+            top: -10px;
+            background-color: red;
+        }
+
+            .indicator.green {
+                background-color: green;
+            }
+
+        #minLabel {
+            position: absolute;
+            bottom: -20px;
+            left: 0;
+        }
+
+        #maxLabel {
+            position: absolute;
+            bottom: -20px;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <select id="exchangeTokenSelect">
+            <option value="">Select Exchange-Token</option>
+        </select>
+    </div>
+    <div>
+        <div id="btcChart"></div>
+        <div id="cryptoChart"></div>
+        <div id="chartContainer">
+            <div id="rangeContainer">
+                <div id="maxIndicator" class="indicator green"></div>
+                <div id="minIndicator" class="indicator"></div>
+                <input type="range" id="timeRange" min="0" max="0" step="1" disabled>
+                <span id="selectedTime">Selected Time: 0</span>
+            </div>
+        </div>
+    </div>
+    <div id="controls">
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" value="100" disabled>
+
+        <label for="leverage">Leverage:</label>
+        <input type="number" id="leverage" value="20" disabled>
+
+        <p>Profit: <span id="profit">0</span> (<span id="profitPercentage">0</span>%)</p>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var select = document.getElementById('exchangeTokenSelect');
+            var chart;
+            var drawData = [];
+            var timeRange = document.getElementById('timeRange');
+
+            var selectedTime = document.getElementById('selectedTime');
+            var profitElement = document.getElementById('profit');
+            var profitPercentageElement = document.getElementById('profitPercentage');
+            var amountInput = document.getElementById('amount');
+            var leverageInput = document.getElementById('leverage');
+            var maxIndicator = document.getElementById('maxIndicator');
+            var minIndicator = document.getElementById('minIndicator');
+
+            var exchangeTokens;
+            
+
+            // Функция для загрузки библиотеки Google Charts
+            google.charts.load('current', { 'packages': ['corechart'] });
+
+            // Функция для отрисовки графика
+            function drawChart(formattedData, tokenIds, chartName, isBtc) {
+                var data = new google.visualization.DataTable();
+                data.addColumn('date', 'Date');
+
+                // Добавляем колонки для каждого токена
+                tokenIds.forEach(id => {
+                    data.addColumn('number', `Open${id}`);
+                    data.addColumn('number', `High${id}`);
+                    data.addColumn('number', `Low${id}`);
+                    data.addColumn('number', `Close${id}`);
+                });
+
+                // Группировка данных по дате
+                var groupedData = {};
+                formattedData.forEach(d => {
+                    const date = d.t.getTime(); // Используем временную метку для группировки
+                    if (!groupedData[date]) {
+                        groupedData[date] = { t: d.t };
+                    }
+                    groupedData[date][`o${d.tokenId}`] = d.o;
+                    groupedData[date][`h${d.tokenId}`] = d.h;
+                    groupedData[date][`l${d.tokenId}`] = d.l;
+                    groupedData[date][`c${d.tokenId}`] = d.c;
+                });
+
+                // Преобразование сгруппированных данных в массив
+                const dataArray = Object.values(groupedData);
+
+                dataArray.forEach(function (d) {
+                    const row = [new Date(d.t)];
+                    tokenIds.forEach(id => {
+                        row.push(d[`o${id}`]);
+                        row.push(d[`h${id}`]);
+                        row.push(d[`l${id}`]);
+                        row.push(d[`c${id}`]);
+                    });
+                    data.addRow(row);
+                });
+
+                var options = {
+                    legend: { position: 'none' },
+                    candlestick: {
+                        fallingColor: { strokeWidth: 0, fill: '#FF0000' }, // Цвет падения
+                        risingColor: { strokeWidth: 0, fill: '#00FF00' }   // Цвет роста
+                    },
+                    width: '100%', // Ширина графика
+                    height: 500 // Высота графика
+                };
+
+                // Создание и отображение графика
+                var chart = new google.visualization.CandlestickChart(document.getElementById(chartName));
+                chart.draw(data, options);
+
+                if (!isBtc) {
+                    // Установить максимальное значение ползунка
+                    timeRange.max = dataArray.length - 1;
+                    timeRange.disabled = false;
+                    amountInput.disabled = false;
+                    leverageInput.disabled = false;
+
+                    // Обновить позиции индикаторов максимума и минимума
+                    updateIndicators();
+                }
+            }
+
+            // Функция для загрузки списка обменов и токенов
+            function fetchExchangesData() {
+                fetch('/token/exchanges')
+                    .then(response => response.json())
+                    .then(data => {
+                        exchangeTokens = data;
+
+                        data.forEach(item => {
+                            var option = document.createElement('option');
+                            option.value = item.id;
+                            option.textContent = `${item.exchange} - ${item.token} ${item.isLong ? '(Long)' : '(Short)'}`;
+                            select.appendChild(option);
+                        });
+                    })
+                    .catch(error => console.error('Error fetching exchanges:', error));
+            }
+
+            // Функция для загрузки данных по выбранному обмену и токену
+            function fetchTokenData(tokenIds) {
+                const fetchData = (exchangeTokenId) => {
+                    return fetch(`/token/exchangeToken/${exchangeTokenId}/data`)
+                        .then(response => response.json())
+                        .then(data => data.map(d => ({
+                            t: new Date(d.date), // Преобразование даты из строки в объект Date
+                            o: parseFloat(d.openingPrice),
+                            h: parseFloat(d.highestPrice),
+                            l: parseFloat(d.lowestPrice),
+                            c: parseFloat(d.closingPrice),
+                            tokenId: exchangeTokenId
+                        })))
+                        .catch(error => {
+                            console.error(`Error fetching token data for ${exchangeTokenId}:`, error);
+                            return []; // Возвращаем пустой массив в случае ошибки, чтобы не ломать общий процесс
+                        });
+                };
+
+                const fetchPromises = tokenIds.map(id => fetchData(id));
+
+                
+
+                Promise.all(fetchPromises)
+                    .then(results => {
+                        console.log('Formatted Data:', results); // Проверка данных в консоли
+
+                        // Объединение всех данных в один массив
+                        const mergedData = [].concat(...results);
+
+                        drawData = mergedData;
+
+                        // Отрисовка графика с полученными данными
+                        drawChart(mergedData, tokenIds, 'cryptoChart', false);
+
+                        //отрисовка btc-графика
+                        {
+                            const dates = drawData.map(item => new Date(item.t));
+
+                            const token = 'BTC';
+                            const start = new Date(Math.min(...dates));
+                            const end = new Date(Math.max(...dates));
+                            const interval = 5;
+                            fetchMarketData(token, start, end, interval)
+                                .then(data => {
+                                    drawChart(data, [-1], 'btcChart', true);
+                                })
+                                .catch(error => console.error('Error:', error));
+                        }
+
+                    });
+            }
+
+
+            // Функция для загрузки данных BTC
+            function fetchMarketData(token, start, end, interval) {
+                const url = `/token/market-data?token=BTC&start=${encodeURIComponent(start.toISOString())}&end=${encodeURIComponent(end.toISOString())}&interval=${encodeURIComponent(interval)}`;
+
+                return fetch(url)
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error(`Error fetching market data for ${token}: ${response.statusText}`);
+                        }
+                        return response.json();
+                    })
+                    .then(data => data.map(d => ({
+                        t: new Date(d.dateTime), // Преобразование даты из строки в объект Date
+                        o: parseFloat(d.openPrice),
+                        h: parseFloat(d.highPrice),
+                        l: parseFloat(d.lowPrice),
+                        c: parseFloat(d.closePrice),
+                        tokenId: -1
+                    })))
+                    .catch(error => {
+                        console.error(`Error fetching market data for ${token}:`, error);
+                        return []; // Возвращаем пустой массив в случае ошибки
+                    });
+            }
+
+            // Функция для расчета прибыли
+            function calculateProfit() {
+                var amount = parseFloat(amountInput.value);
+                var leverage = parseFloat(leverageInput.value);
+                var index = parseInt(timeRange.value, 10);
+                var selectedData = drawData[index];
+
+                // Расчет прибыли (примерный)
+                var initialPrice = drawData[0].o; // Начальная цена (можно изменить)
+                var currentPrice = selectedData.h;
+                var profitPercentage = ((currentPrice - initialPrice) / initialPrice) * 100 * leverage;
+                var profit = profitPercentage / 100 * amount;
+
+                profitElement.textContent = profit.toFixed(2);
+                profitPercentageElement.textContent = profitPercentage.toFixed(2);
+                selectedTime.textContent = `Selected Time: ${selectedData.t.toLocaleString()}`;
+            }
+
+            // Функция для обновления позиций индикаторов максимума и минимума
+            function updateIndicators() {
+                if (drawData.length > 0) {
+                    var maxIndex = drawData.findIndex(d => d.h === Math.max(...drawData.map(d => d.h)));
+                    var minIndex = drawData.findIndex(d => d.l === Math.min(...drawData.map(d => d.l)));
+                    var rangeWidth = timeRange.offsetWidth;
+                    maxIndicator.style.left = (maxIndex / drawData.length * rangeWidth) + 'px';
+                    minIndicator.style.left = (minIndex / drawData.length * rangeWidth) + 'px';
+                }
+            }
+
+            // Инициализация выпадающего списка обменов на загрузке страницы
+            fetchExchangesData();
+
+
+            // Обработка изменения выбора в выпадающем списке
+            select.addEventListener('change', function () {
+                var exchangeTokenId = select.value;
+                if (exchangeTokenId) {
+                    fetchTokenData([exchangeTokenId]);
+                }
+            });
+
+            // Обработка изменения ползунка
+            timeRange.addEventListener('input', calculateProfit);
+            amountInput.addEventListener('input', calculateProfit);
+            leverageInput.addEventListener('input', calculateProfit);
+        });
+    </script>
+</body>
+</html>

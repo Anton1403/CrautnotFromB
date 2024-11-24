@@ -1,0 +1,1346 @@
+[
+  {
+    "dateTime": "2023-05-29T10:00:00",
+    "closePrice": 0.003187,
+    "highPrice": 0.003205,
+    "lowPrice": 0.003108,
+    "openPrice": 0.00312
+  },
+  {
+    "dateTime": "2023-05-29T10:15:00",
+    "closePrice": 0.003159,
+    "highPrice": 0.003187,
+    "lowPrice": 0.003148,
+    "openPrice": 0.003187
+  },
+  {
+    "dateTime": "2023-05-29T10:30:00",
+    "closePrice": 0.003213,
+    "highPrice": 0.003229,
+    "lowPrice": 0.003159,
+    "openPrice": 0.003159
+  },
+  {
+    "dateTime": "2023-05-29T10:45:00",
+    "closePrice": 0.003173,
+    "highPrice": 0.003213,
+    "lowPrice": 0.003159,
+    "openPrice": 0.003213
+  },
+  {
+    "dateTime": "2023-05-29T11:00:00",
+    "closePrice": 0.003279,
+    "highPrice": 0.003358,
+    "lowPrice": 0.003159,
+    "openPrice": 0.003173
+  },
+  {
+    "dateTime": "2023-05-29T11:15:00",
+    "closePrice": 0.00334,
+    "highPrice": 0.003358,
+    "lowPrice": 0.003267,
+    "openPrice": 0.003279
+  },
+  {
+    "dateTime": "2023-05-29T11:30:00",
+    "closePrice": 0.003295,
+    "highPrice": 0.00334,
+    "lowPrice": 0.003277,
+    "openPrice": 0.00334
+  },
+  {
+    "dateTime": "2023-05-29T11:45:00",
+    "closePrice": 0.003358,
+    "highPrice": 0.003415,
+    "lowPrice": 0.003279,
+    "openPrice": 0.003295
+  },
+  {
+    "dateTime": "2023-05-29T12:00:00",
+    "closePrice": 0.003447,
+    "highPrice": 0.003492,
+    "lowPrice": 0.003358,
+    "openPrice": 0.003358
+  },
+  {
+    "dateTime": "2023-05-29T12:15:00",
+    "closePrice": 0.003474,
+    "highPrice": 0.003529,
+    "lowPrice": 0.003439,
+    "openPrice": 0.003447
+  },
+  {
+    "dateTime": "2023-05-29T12:30:00",
+    "closePrice": 0.0035,
+    "highPrice": 0.0035,
+    "lowPrice": 0.003372,
+    "openPrice": 0.003474
+  },
+  {
+    "dateTime": "2023-05-29T12:45:00",
+    "closePrice": 0.003463,
+    "highPrice": 0.003529,
+    "lowPrice": 0.003404,
+    "openPrice": 0.0035
+  },
+  {
+    "dateTime": "2023-05-29T13:00:00",
+    "closePrice": 0.003614,
+    "highPrice": 0.003656,
+    "lowPrice": 0.003463,
+    "openPrice": 0.003463
+  },
+  {
+    "dateTime": "2023-05-29T13:15:00",
+    "closePrice": 0.003666,
+    "highPrice": 0.00371,
+    "lowPrice": 0.003579,
+    "openPrice": 0.003614
+  },
+  {
+    "dateTime": "2023-05-29T13:30:00",
+    "closePrice": 0.00374,
+    "highPrice": 0.0038,
+    "lowPrice": 0.003616,
+    "openPrice": 0.003666
+  },
+  {
+    "dateTime": "2023-05-29T13:45:00",
+    "closePrice": 0.00368,
+    "highPrice": 0.003759,
+    "lowPrice": 0.00368,
+    "openPrice": 0.00374
+  },
+  {
+    "dateTime": "2023-05-29T14:00:00",
+    "closePrice": 0.003885,
+    "highPrice": 0.003941,
+    "lowPrice": 0.00368,
+    "openPrice": 0.00368
+  },
+  {
+    "dateTime": "2023-05-29T14:15:00",
+    "closePrice": 0.003898,
+    "highPrice": 0.004,
+    "lowPrice": 0.003872,
+    "openPrice": 0.003885
+  },
+  {
+    "dateTime": "2023-05-29T14:30:00",
+    "closePrice": 0.004008,
+    "highPrice": 0.004025,
+    "lowPrice": 0.00388,
+    "openPrice": 0.003898
+  },
+  {
+    "dateTime": "2023-05-29T14:45:00",
+    "closePrice": 0.003827,
+    "highPrice": 0.004008,
+    "lowPrice": 0.003827,
+    "openPrice": 0.004008
+  },
+  {
+    "dateTime": "2023-05-29T15:00:00",
+    "closePrice": 0.0037,
+    "highPrice": 0.003915,
+    "lowPrice": 0.0037,
+    "openPrice": 0.003827
+  },
+  {
+    "dateTime": "2023-05-29T15:15:00",
+    "closePrice": 0.003683,
+    "highPrice": 0.003834,
+    "lowPrice": 0.003683,
+    "openPrice": 0.0037
+  },
+  {
+    "dateTime": "2023-05-29T15:30:00",
+    "closePrice": 0.003681,
+    "highPrice": 0.003709,
+    "lowPrice": 0.003626,
+    "openPrice": 0.003683
+  },
+  {
+    "dateTime": "2023-05-29T15:45:00",
+    "closePrice": 0.003683,
+    "highPrice": 0.003768,
+    "lowPrice": 0.003671,
+    "openPrice": 0.003681
+  },
+  {
+    "dateTime": "2023-05-29T16:00:00",
+    "closePrice": 0.003827,
+    "highPrice": 0.003827,
+    "lowPrice": 0.00367,
+    "openPrice": 0.003683
+  },
+  {
+    "dateTime": "2023-05-29T16:15:00",
+    "closePrice": 0.003844,
+    "highPrice": 0.003923,
+    "lowPrice": 0.003796,
+    "openPrice": 0.003827
+  },
+  {
+    "dateTime": "2023-05-29T16:30:00",
+    "closePrice": 0.004143,
+    "highPrice": 0.004162,
+    "lowPrice": 0.003835,
+    "openPrice": 0.003844
+  },
+  {
+    "dateTime": "2023-05-29T16:45:00",
+    "closePrice": 0.004035,
+    "highPrice": 0.004175,
+    "lowPrice": 0.00402,
+    "openPrice": 0.004143
+  },
+  {
+    "dateTime": "2023-05-29T17:00:00",
+    "closePrice": 0.004206,
+    "highPrice": 0.00432,
+    "lowPrice": 0.004035,
+    "openPrice": 0.004035
+  },
+  {
+    "dateTime": "2023-05-29T17:15:00",
+    "closePrice": 0.00422,
+    "highPrice": 0.004279,
+    "lowPrice": 0.004162,
+    "openPrice": 0.004206
+  },
+  {
+    "dateTime": "2023-05-29T17:30:00",
+    "closePrice": 0.00415,
+    "highPrice": 0.004239,
+    "lowPrice": 0.004138,
+    "openPrice": 0.00422
+  },
+  {
+    "dateTime": "2023-05-29T17:45:00",
+    "closePrice": 0.004157,
+    "highPrice": 0.004162,
+    "lowPrice": 0.004035,
+    "openPrice": 0.00415
+  },
+  {
+    "dateTime": "2023-05-29T18:00:00",
+    "closePrice": 0.004131,
+    "highPrice": 0.00416,
+    "lowPrice": 0.004074,
+    "openPrice": 0.004157
+  },
+  {
+    "dateTime": "2023-05-29T18:15:00",
+    "closePrice": 0.004148,
+    "highPrice": 0.004162,
+    "lowPrice": 0.004104,
+    "openPrice": 0.004131
+  },
+  {
+    "dateTime": "2023-05-29T18:30:00",
+    "closePrice": 0.004138,
+    "highPrice": 0.004179,
+    "lowPrice": 0.004126,
+    "openPrice": 0.004148
+  },
+  {
+    "dateTime": "2023-05-29T18:45:00",
+    "closePrice": 0.004178,
+    "highPrice": 0.004178,
+    "lowPrice": 0.004078,
+    "openPrice": 0.004138
+  },
+  {
+    "dateTime": "2023-05-29T19:00:00",
+    "closePrice": 0.004129,
+    "highPrice": 0.004252,
+    "lowPrice": 0.004101,
+    "openPrice": 0.004178
+  },
+  {
+    "dateTime": "2023-05-29T19:15:00",
+    "closePrice": 0.004239,
+    "highPrice": 0.004239,
+    "lowPrice": 0.004104,
+    "openPrice": 0.004129
+  },
+  {
+    "dateTime": "2023-05-29T19:30:00",
+    "closePrice": 0.00419,
+    "highPrice": 0.004239,
+    "lowPrice": 0.00413,
+    "openPrice": 0.004239
+  },
+  {
+    "dateTime": "2023-05-29T19:45:00",
+    "closePrice": 0.00417,
+    "highPrice": 0.004231,
+    "lowPrice": 0.004131,
+    "openPrice": 0.00419
+  },
+  {
+    "dateTime": "2023-05-29T20:00:00",
+    "closePrice": 0.004163,
+    "highPrice": 0.004205,
+    "lowPrice": 0.004138,
+    "openPrice": 0.00417
+  },
+  {
+    "dateTime": "2023-05-29T20:15:00",
+    "closePrice": 0.004,
+    "highPrice": 0.00419,
+    "lowPrice": 0.003997,
+    "openPrice": 0.004163
+  },
+  {
+    "dateTime": "2023-05-29T20:30:00",
+    "closePrice": 0.003965,
+    "highPrice": 0.00403,
+    "lowPrice": 0.003923,
+    "openPrice": 0.004
+  },
+  {
+    "dateTime": "2023-05-29T20:45:00",
+    "closePrice": 0.003982,
+    "highPrice": 0.003983,
+    "lowPrice": 0.0039,
+    "openPrice": 0.003965
+  },
+  {
+    "dateTime": "2023-05-29T21:00:00",
+    "closePrice": 0.004013,
+    "highPrice": 0.004014,
+    "lowPrice": 0.003948,
+    "openPrice": 0.003982
+  },
+  {
+    "dateTime": "2023-05-29T21:15:00",
+    "closePrice": 0.004041,
+    "highPrice": 0.004075,
+    "lowPrice": 0.004013,
+    "openPrice": 0.004013
+  },
+  {
+    "dateTime": "2023-05-29T21:30:00",
+    "closePrice": 0.00412,
+    "highPrice": 0.004126,
+    "lowPrice": 0.00402,
+    "openPrice": 0.004041
+  },
+  {
+    "dateTime": "2023-05-29T21:45:00",
+    "closePrice": 0.00409,
+    "highPrice": 0.00412,
+    "lowPrice": 0.00409,
+    "openPrice": 0.00412
+  },
+  {
+    "dateTime": "2023-05-29T22:00:00",
+    "closePrice": 0.003967,
+    "highPrice": 0.00409,
+    "lowPrice": 0.003967,
+    "openPrice": 0.00409
+  },
+  {
+    "dateTime": "2023-05-29T22:15:00",
+    "closePrice": 0.004018,
+    "highPrice": 0.004018,
+    "lowPrice": 0.003967,
+    "openPrice": 0.003967
+  },
+  {
+    "dateTime": "2023-05-29T22:30:00",
+    "closePrice": 0.004022,
+    "highPrice": 0.004035,
+    "lowPrice": 0.004018,
+    "openPrice": 0.004018
+  },
+  {
+    "dateTime": "2023-05-29T22:45:00",
+    "closePrice": 0.003982,
+    "highPrice": 0.004022,
+    "lowPrice": 0.003953,
+    "openPrice": 0.004022
+  },
+  {
+    "dateTime": "2023-05-29T23:00:00",
+    "closePrice": 0.004009,
+    "highPrice": 0.004009,
+    "lowPrice": 0.003982,
+    "openPrice": 0.003982
+  },
+  {
+    "dateTime": "2023-05-29T23:15:00",
+    "closePrice": 0.003888,
+    "highPrice": 0.004009,
+    "lowPrice": 0.003888,
+    "openPrice": 0.004009
+  },
+  {
+    "dateTime": "2023-05-29T23:30:00",
+    "closePrice": 0.003899,
+    "highPrice": 0.003921,
+    "lowPrice": 0.003853,
+    "openPrice": 0.003888
+  },
+  {
+    "dateTime": "2023-05-29T23:45:00",
+    "closePrice": 0.003898,
+    "highPrice": 0.003923,
+    "lowPrice": 0.003898,
+    "openPrice": 0.003899
+  },
+  {
+    "dateTime": "2023-05-30T00:00:00",
+    "closePrice": 0.004018,
+    "highPrice": 0.004018,
+    "lowPrice": 0.003889,
+    "openPrice": 0.003898
+  },
+  {
+    "dateTime": "2023-05-30T00:15:00",
+    "closePrice": 0.004001,
+    "highPrice": 0.004063,
+    "lowPrice": 0.003994,
+    "openPrice": 0.004018
+  },
+  {
+    "dateTime": "2023-05-30T00:30:00",
+    "closePrice": 0.003936,
+    "highPrice": 0.004001,
+    "lowPrice": 0.00393,
+    "openPrice": 0.004001
+  },
+  {
+    "dateTime": "2023-05-30T00:45:00",
+    "closePrice": 0.003981,
+    "highPrice": 0.003981,
+    "lowPrice": 0.003936,
+    "openPrice": 0.003936
+  },
+  {
+    "dateTime": "2023-05-30T01:00:00",
+    "closePrice": 0.004115,
+    "highPrice": 0.004115,
+    "lowPrice": 0.003969,
+    "openPrice": 0.003981
+  },
+  {
+    "dateTime": "2023-05-30T01:15:00",
+    "closePrice": 0.004042,
+    "highPrice": 0.00419,
+    "lowPrice": 0.004042,
+    "openPrice": 0.004115
+  },
+  {
+    "dateTime": "2023-05-30T01:30:00",
+    "closePrice": 0.00405,
+    "highPrice": 0.004075,
+    "lowPrice": 0.004042,
+    "openPrice": 0.004042
+  },
+  {
+    "dateTime": "2023-05-30T01:45:00",
+    "closePrice": 0.004063,
+    "highPrice": 0.004075,
+    "lowPrice": 0.00405,
+    "openPrice": 0.00405
+  },
+  {
+    "dateTime": "2023-05-30T02:00:00",
+    "closePrice": 0.00403,
+    "highPrice": 0.004063,
+    "lowPrice": 0.004009,
+    "openPrice": 0.004063
+  },
+  {
+    "dateTime": "2023-05-30T02:15:00",
+    "closePrice": 0.004116,
+    "highPrice": 0.004126,
+    "lowPrice": 0.00403,
+    "openPrice": 0.00403
+  },
+  {
+    "dateTime": "2023-05-30T02:30:00",
+    "closePrice": 0.004075,
+    "highPrice": 0.004123,
+    "lowPrice": 0.004075,
+    "openPrice": 0.004116
+  },
+  {
+    "dateTime": "2023-05-30T02:45:00",
+    "closePrice": 0.004104,
+    "highPrice": 0.004161,
+    "lowPrice": 0.004075,
+    "openPrice": 0.004075
+  },
+  {
+    "dateTime": "2023-05-30T03:00:00",
+    "closePrice": 0.004197,
+    "highPrice": 0.004275,
+    "lowPrice": 0.004104,
+    "openPrice": 0.004104
+  },
+  {
+    "dateTime": "2023-05-30T03:15:00",
+    "closePrice": 0.004206,
+    "highPrice": 0.004288,
+    "lowPrice": 0.004197,
+    "openPrice": 0.004197
+  },
+  {
+    "dateTime": "2023-05-30T03:30:00",
+    "closePrice": 0.004264,
+    "highPrice": 0.004284,
+    "lowPrice": 0.004206,
+    "openPrice": 0.004206
+  },
+  {
+    "dateTime": "2023-05-30T03:45:00",
+    "closePrice": 0.00422,
+    "highPrice": 0.004264,
+    "lowPrice": 0.00422,
+    "openPrice": 0.004264
+  },
+  {
+    "dateTime": "2023-05-30T04:00:00",
+    "closePrice": 0.004163,
+    "highPrice": 0.004232,
+    "lowPrice": 0.004157,
+    "openPrice": 0.00422
+  },
+  {
+    "dateTime": "2023-05-30T04:15:00",
+    "closePrice": 0.004251,
+    "highPrice": 0.004281,
+    "lowPrice": 0.004163,
+    "openPrice": 0.004163
+  },
+  {
+    "dateTime": "2023-05-30T04:30:00",
+    "closePrice": 0.004425,
+    "highPrice": 0.004425,
+    "lowPrice": 0.004251,
+    "openPrice": 0.004251
+  },
+  {
+    "dateTime": "2023-05-30T04:45:00",
+    "closePrice": 0.004463,
+    "highPrice": 0.004594,
+    "lowPrice": 0.004425,
+    "openPrice": 0.004425
+  },
+  {
+    "dateTime": "2023-05-30T05:00:00",
+    "closePrice": 0.004413,
+    "highPrice": 0.004463,
+    "lowPrice": 0.0043,
+    "openPrice": 0.004463
+  },
+  {
+    "dateTime": "2023-05-30T05:15:00",
+    "closePrice": 0.004439,
+    "highPrice": 0.004485,
+    "lowPrice": 0.004405,
+    "openPrice": 0.004413
+  },
+  {
+    "dateTime": "2023-05-30T05:30:00",
+    "closePrice": 0.00453,
+    "highPrice": 0.004593,
+    "lowPrice": 0.004439,
+    "openPrice": 0.004439
+  },
+  {
+    "dateTime": "2023-05-30T05:45:00",
+    "closePrice": 0.004569,
+    "highPrice": 0.004612,
+    "lowPrice": 0.00453,
+    "openPrice": 0.00453
+  },
+  {
+    "dateTime": "2023-05-30T06:00:00",
+    "closePrice": 0.004448,
+    "highPrice": 0.004576,
+    "lowPrice": 0.00438,
+    "openPrice": 0.004569
+  },
+  {
+    "dateTime": "2023-05-30T06:15:00",
+    "closePrice": 0.004376,
+    "highPrice": 0.004448,
+    "lowPrice": 0.004345,
+    "openPrice": 0.004448
+  },
+  {
+    "dateTime": "2023-05-30T06:30:00",
+    "closePrice": 0.004199,
+    "highPrice": 0.004424,
+    "lowPrice": 0.004199,
+    "openPrice": 0.004376
+  },
+  {
+    "dateTime": "2023-05-30T06:45:00",
+    "closePrice": 0.004264,
+    "highPrice": 0.004305,
+    "lowPrice": 0.004199,
+    "openPrice": 0.004199
+  },
+  {
+    "dateTime": "2023-05-30T07:00:00",
+    "closePrice": 0.004235,
+    "highPrice": 0.00434,
+    "lowPrice": 0.00421,
+    "openPrice": 0.004264
+  },
+  {
+    "dateTime": "2023-05-30T07:15:00",
+    "closePrice": 0.00426,
+    "highPrice": 0.004261,
+    "lowPrice": 0.004197,
+    "openPrice": 0.004235
+  },
+  {
+    "dateTime": "2023-05-30T07:30:00",
+    "closePrice": 0.004395,
+    "highPrice": 0.004405,
+    "lowPrice": 0.00426,
+    "openPrice": 0.00426
+  },
+  {
+    "dateTime": "2023-05-30T07:45:00",
+    "closePrice": 0.004252,
+    "highPrice": 0.004395,
+    "lowPrice": 0.004197,
+    "openPrice": 0.004395
+  },
+  {
+    "dateTime": "2023-05-30T08:00:00",
+    "closePrice": 0.003936,
+    "highPrice": 0.004252,
+    "lowPrice": 0.003936,
+    "openPrice": 0.004252
+  },
+  {
+    "dateTime": "2023-05-30T08:15:00",
+    "closePrice": 0.004037,
+    "highPrice": 0.00404,
+    "lowPrice": 0.003907,
+    "openPrice": 0.003936
+  },
+  {
+    "dateTime": "2023-05-30T08:30:00",
+    "closePrice": 0.003922,
+    "highPrice": 0.004037,
+    "lowPrice": 0.003922,
+    "openPrice": 0.004037
+  },
+  {
+    "dateTime": "2023-05-30T08:45:00",
+    "closePrice": 0.003924,
+    "highPrice": 0.003982,
+    "lowPrice": 0.003854,
+    "openPrice": 0.003922
+  },
+  {
+    "dateTime": "2023-05-30T09:00:00",
+    "closePrice": 0.003984,
+    "highPrice": 0.003998,
+    "lowPrice": 0.003922,
+    "openPrice": 0.003924
+  },
+  {
+    "dateTime": "2023-05-30T09:15:00",
+    "closePrice": 0.003954,
+    "highPrice": 0.004018,
+    "lowPrice": 0.003953,
+    "openPrice": 0.003984
+  },
+  {
+    "dateTime": "2023-05-30T09:30:00",
+    "closePrice": 0.003872,
+    "highPrice": 0.003954,
+    "lowPrice": 0.003872,
+    "openPrice": 0.003954
+  },
+  {
+    "dateTime": "2023-05-30T09:45:00",
+    "closePrice": 0.003923,
+    "highPrice": 0.00393,
+    "lowPrice": 0.003872,
+    "openPrice": 0.003872
+  },
+  {
+    "dateTime": "2023-05-30T10:00:00",
+    "closePrice": 0.003944,
+    "highPrice": 0.003953,
+    "lowPrice": 0.003899,
+    "openPrice": 0.003923
+  },
+  {
+    "dateTime": "2023-05-30T10:15:00",
+    "closePrice": 0.004072,
+    "highPrice": 0.004072,
+    "lowPrice": 0.003944,
+    "openPrice": 0.003944
+  },
+  {
+    "dateTime": "2023-05-30T10:30:00",
+    "closePrice": 0.004067,
+    "highPrice": 0.004162,
+    "lowPrice": 0.004053,
+    "openPrice": 0.004072
+  },
+  {
+    "dateTime": "2023-05-30T10:45:00",
+    "closePrice": 0.004037,
+    "highPrice": 0.004104,
+    "lowPrice": 0.004037,
+    "openPrice": 0.004067
+  },
+  {
+    "dateTime": "2023-05-30T11:00:00",
+    "closePrice": 0.004009,
+    "highPrice": 0.004037,
+    "lowPrice": 0.003998,
+    "openPrice": 0.004037
+  },
+  {
+    "dateTime": "2023-05-30T11:15:00",
+    "closePrice": 0.003965,
+    "highPrice": 0.004046,
+    "lowPrice": 0.003949,
+    "openPrice": 0.004009
+  },
+  {
+    "dateTime": "2023-05-30T11:30:00",
+    "closePrice": 0.003913,
+    "highPrice": 0.003998,
+    "lowPrice": 0.003913,
+    "openPrice": 0.003965
+  },
+  {
+    "dateTime": "2023-05-30T11:45:00",
+    "closePrice": 0.003997,
+    "highPrice": 0.004001,
+    "lowPrice": 0.003913,
+    "openPrice": 0.003913
+  },
+  {
+    "dateTime": "2023-05-30T12:00:00",
+    "closePrice": 0.003932,
+    "highPrice": 0.004001,
+    "lowPrice": 0.003932,
+    "openPrice": 0.003997
+  },
+  {
+    "dateTime": "2023-05-30T12:15:00",
+    "closePrice": 0.003849,
+    "highPrice": 0.003932,
+    "lowPrice": 0.003827,
+    "openPrice": 0.003932
+  },
+  {
+    "dateTime": "2023-05-30T12:30:00",
+    "closePrice": 0.003787,
+    "highPrice": 0.003849,
+    "lowPrice": 0.003712,
+    "openPrice": 0.003849
+  },
+  {
+    "dateTime": "2023-05-30T12:45:00",
+    "closePrice": 0.003835,
+    "highPrice": 0.003847,
+    "lowPrice": 0.003787,
+    "openPrice": 0.003787
+  },
+  {
+    "dateTime": "2023-05-30T13:00:00",
+    "closePrice": 0.003712,
+    "highPrice": 0.003835,
+    "lowPrice": 0.003712,
+    "openPrice": 0.003835
+  },
+  {
+    "dateTime": "2023-05-30T13:15:00",
+    "closePrice": 0.003787,
+    "highPrice": 0.003787,
+    "lowPrice": 0.003688,
+    "openPrice": 0.003712
+  },
+  {
+    "dateTime": "2023-05-30T13:30:00",
+    "closePrice": 0.003746,
+    "highPrice": 0.003819,
+    "lowPrice": 0.003712,
+    "openPrice": 0.003787
+  },
+  {
+    "dateTime": "2023-05-30T13:45:00",
+    "closePrice": 0.003865,
+    "highPrice": 0.003867,
+    "lowPrice": 0.003746,
+    "openPrice": 0.003746
+  },
+  {
+    "dateTime": "2023-05-30T14:00:00",
+    "closePrice": 0.003872,
+    "highPrice": 0.003922,
+    "lowPrice": 0.003827,
+    "openPrice": 0.003865
+  },
+  {
+    "dateTime": "2023-05-30T14:15:00",
+    "closePrice": 0.003793,
+    "highPrice": 0.003909,
+    "lowPrice": 0.003759,
+    "openPrice": 0.003872
+  },
+  {
+    "dateTime": "2023-05-30T14:30:00",
+    "closePrice": 0.003797,
+    "highPrice": 0.003835,
+    "lowPrice": 0.003793,
+    "openPrice": 0.003793
+  },
+  {
+    "dateTime": "2023-05-30T14:45:00",
+    "closePrice": 0.003776,
+    "highPrice": 0.003819,
+    "lowPrice": 0.003776,
+    "openPrice": 0.003797
+  },
+  {
+    "dateTime": "2023-05-30T15:00:00",
+    "closePrice": 0.003755,
+    "highPrice": 0.003835,
+    "lowPrice": 0.003729,
+    "openPrice": 0.003776
+  },
+  {
+    "dateTime": "2023-05-30T15:15:00",
+    "closePrice": 0.003867,
+    "highPrice": 0.003867,
+    "lowPrice": 0.003755,
+    "openPrice": 0.003755
+  },
+  {
+    "dateTime": "2023-05-30T15:30:00",
+    "closePrice": 0.003854,
+    "highPrice": 0.003909,
+    "lowPrice": 0.00385,
+    "openPrice": 0.003867
+  },
+  {
+    "dateTime": "2023-05-30T15:45:00",
+    "closePrice": 0.003867,
+    "highPrice": 0.003934,
+    "lowPrice": 0.003854,
+    "openPrice": 0.003854
+  },
+  {
+    "dateTime": "2023-05-30T16:00:00",
+    "closePrice": 0.003878,
+    "highPrice": 0.003885,
+    "lowPrice": 0.00385,
+    "openPrice": 0.003867
+  },
+  {
+    "dateTime": "2023-05-30T16:15:00",
+    "closePrice": 0.003808,
+    "highPrice": 0.003878,
+    "lowPrice": 0.003787,
+    "openPrice": 0.003878
+  },
+  {
+    "dateTime": "2023-05-30T16:30:00",
+    "closePrice": 0.00379,
+    "highPrice": 0.003853,
+    "lowPrice": 0.003787,
+    "openPrice": 0.003808
+  },
+  {
+    "dateTime": "2023-05-30T16:45:00",
+    "closePrice": 0.003793,
+    "highPrice": 0.003793,
+    "lowPrice": 0.003776,
+    "openPrice": 0.00379
+  },
+  {
+    "dateTime": "2023-05-30T17:00:00",
+    "closePrice": 0.003715,
+    "highPrice": 0.003805,
+    "lowPrice": 0.003715,
+    "openPrice": 0.003793
+  },
+  {
+    "dateTime": "2023-05-30T17:15:00",
+    "closePrice": 0.003808,
+    "highPrice": 0.003835,
+    "lowPrice": 0.003715,
+    "openPrice": 0.003715
+  },
+  {
+    "dateTime": "2023-05-30T17:30:00",
+    "closePrice": 0.003787,
+    "highPrice": 0.003809,
+    "lowPrice": 0.003787,
+    "openPrice": 0.003808
+  },
+  {
+    "dateTime": "2023-05-30T17:45:00",
+    "closePrice": 0.003806,
+    "highPrice": 0.003835,
+    "lowPrice": 0.003787,
+    "openPrice": 0.003787
+  },
+  {
+    "dateTime": "2023-05-30T18:00:00",
+    "closePrice": 0.003776,
+    "highPrice": 0.003806,
+    "lowPrice": 0.003776,
+    "openPrice": 0.003806
+  },
+  {
+    "dateTime": "2023-05-30T18:15:00",
+    "closePrice": 0.00385,
+    "highPrice": 0.00385,
+    "lowPrice": 0.003776,
+    "openPrice": 0.003776
+  },
+  {
+    "dateTime": "2023-05-30T18:30:00",
+    "closePrice": 0.003885,
+    "highPrice": 0.003885,
+    "lowPrice": 0.003847,
+    "openPrice": 0.00385
+  },
+  {
+    "dateTime": "2023-05-30T18:45:00",
+    "closePrice": 0.00379,
+    "highPrice": 0.003885,
+    "lowPrice": 0.00379,
+    "openPrice": 0.003885
+  },
+  {
+    "dateTime": "2023-05-30T19:00:00",
+    "closePrice": 0.003787,
+    "highPrice": 0.003805,
+    "lowPrice": 0.003787,
+    "openPrice": 0.00379
+  },
+  {
+    "dateTime": "2023-05-30T19:15:00",
+    "closePrice": 0.003826,
+    "highPrice": 0.003826,
+    "lowPrice": 0.003787,
+    "openPrice": 0.003787
+  },
+  {
+    "dateTime": "2023-05-30T19:30:00",
+    "closePrice": 0.003869,
+    "highPrice": 0.003873,
+    "lowPrice": 0.003826,
+    "openPrice": 0.003826
+  },
+  {
+    "dateTime": "2023-05-30T19:45:00",
+    "closePrice": 0.00381,
+    "highPrice": 0.003869,
+    "lowPrice": 0.003793,
+    "openPrice": 0.003869
+  },
+  {
+    "dateTime": "2023-05-30T20:00:00",
+    "closePrice": 0.003836,
+    "highPrice": 0.003849,
+    "lowPrice": 0.003805,
+    "openPrice": 0.00381
+  },
+  {
+    "dateTime": "2023-05-30T20:15:00",
+    "closePrice": 0.00385,
+    "highPrice": 0.00385,
+    "lowPrice": 0.003835,
+    "openPrice": 0.003836
+  },
+  {
+    "dateTime": "2023-05-30T20:30:00",
+    "closePrice": 0.003889,
+    "highPrice": 0.003922,
+    "lowPrice": 0.003849,
+    "openPrice": 0.00385
+  },
+  {
+    "dateTime": "2023-05-30T20:45:00",
+    "closePrice": 0.003908,
+    "highPrice": 0.003923,
+    "lowPrice": 0.003889,
+    "openPrice": 0.003889
+  },
+  {
+    "dateTime": "2023-05-30T21:00:00",
+    "closePrice": 0.004092,
+    "highPrice": 0.004092,
+    "lowPrice": 0.003908,
+    "openPrice": 0.003908
+  },
+  {
+    "dateTime": "2023-05-30T21:15:00",
+    "closePrice": 0.004036,
+    "highPrice": 0.004094,
+    "lowPrice": 0.00403,
+    "openPrice": 0.004092
+  },
+  {
+    "dateTime": "2023-05-30T21:30:00",
+    "closePrice": 0.004199,
+    "highPrice": 0.004199,
+    "lowPrice": 0.004036,
+    "openPrice": 0.004036
+  },
+  {
+    "dateTime": "2023-05-30T21:45:00",
+    "closePrice": 0.00419,
+    "highPrice": 0.004306,
+    "lowPrice": 0.004157,
+    "openPrice": 0.004199
+  },
+  {
+    "dateTime": "2023-05-30T22:00:00",
+    "closePrice": 0.004035,
+    "highPrice": 0.00419,
+    "lowPrice": 0.004035,
+    "openPrice": 0.00419
+  },
+  {
+    "dateTime": "2023-05-30T22:15:00",
+    "closePrice": 0.004074,
+    "highPrice": 0.004091,
+    "lowPrice": 0.004035,
+    "openPrice": 0.004035
+  },
+  {
+    "dateTime": "2023-05-30T22:30:00",
+    "closePrice": 0.004052,
+    "highPrice": 0.004074,
+    "lowPrice": 0.00404,
+    "openPrice": 0.004074
+  },
+  {
+    "dateTime": "2023-05-30T22:45:00",
+    "closePrice": 0.004046,
+    "highPrice": 0.004072,
+    "lowPrice": 0.004001,
+    "openPrice": 0.004052
+  },
+  {
+    "dateTime": "2023-05-30T23:00:00",
+    "closePrice": 0.004063,
+    "highPrice": 0.004063,
+    "lowPrice": 0.004009,
+    "openPrice": 0.004046
+  },
+  {
+    "dateTime": "2023-05-30T23:15:00",
+    "closePrice": 0.00388,
+    "highPrice": 0.004063,
+    "lowPrice": 0.00388,
+    "openPrice": 0.004063
+  },
+  {
+    "dateTime": "2023-05-30T23:30:00",
+    "closePrice": 0.003922,
+    "highPrice": 0.003953,
+    "lowPrice": 0.003861,
+    "openPrice": 0.00388
+  },
+  {
+    "dateTime": "2023-05-30T23:45:00",
+    "closePrice": 0.00388,
+    "highPrice": 0.003925,
+    "lowPrice": 0.00388,
+    "openPrice": 0.003922
+  },
+  {
+    "dateTime": "2023-05-31T00:00:00",
+    "closePrice": 0.00388,
+    "highPrice": 0.003889,
+    "lowPrice": 0.00388,
+    "openPrice": 0.00388
+  },
+  {
+    "dateTime": "2023-05-31T00:15:00",
+    "closePrice": 0.003881,
+    "highPrice": 0.003909,
+    "lowPrice": 0.003867,
+    "openPrice": 0.00388
+  },
+  {
+    "dateTime": "2023-05-31T00:30:00",
+    "closePrice": 0.003853,
+    "highPrice": 0.003889,
+    "lowPrice": 0.00385,
+    "openPrice": 0.003881
+  },
+  {
+    "dateTime": "2023-05-31T00:45:00",
+    "closePrice": 0.003867,
+    "highPrice": 0.003868,
+    "lowPrice": 0.003853,
+    "openPrice": 0.003853
+  },
+  {
+    "dateTime": "2023-05-31T01:00:00",
+    "closePrice": 0.003953,
+    "highPrice": 0.003953,
+    "lowPrice": 0.003867,
+    "openPrice": 0.003867
+  },
+  {
+    "dateTime": "2023-05-31T01:15:00",
+    "closePrice": 0.003899,
+    "highPrice": 0.00397,
+    "lowPrice": 0.003899,
+    "openPrice": 0.003953
+  },
+  {
+    "dateTime": "2023-05-31T01:30:00",
+    "closePrice": 0.003899,
+    "highPrice": 0.003899,
+    "lowPrice": 0.003899,
+    "openPrice": 0.003899
+  },
+  {
+    "dateTime": "2023-05-31T01:45:00",
+    "closePrice": 0.003868,
+    "highPrice": 0.003908,
+    "lowPrice": 0.003835,
+    "openPrice": 0.003899
+  },
+  {
+    "dateTime": "2023-05-31T02:00:00",
+    "closePrice": 0.003858,
+    "highPrice": 0.00388,
+    "lowPrice": 0.003858,
+    "openPrice": 0.003868
+  },
+  {
+    "dateTime": "2023-05-31T02:15:00",
+    "closePrice": 0.003885,
+    "highPrice": 0.003885,
+    "lowPrice": 0.003854,
+    "openPrice": 0.003858
+  },
+  {
+    "dateTime": "2023-05-31T02:30:00",
+    "closePrice": 0.003872,
+    "highPrice": 0.00393,
+    "lowPrice": 0.003872,
+    "openPrice": 0.003885
+  },
+  {
+    "dateTime": "2023-05-31T02:45:00",
+    "closePrice": 0.003872,
+    "highPrice": 0.003872,
+    "lowPrice": 0.003872,
+    "openPrice": 0.003872
+  },
+  {
+    "dateTime": "2023-05-31T03:00:00",
+    "closePrice": 0.003854,
+    "highPrice": 0.003872,
+    "lowPrice": 0.003847,
+    "openPrice": 0.003872
+  },
+  {
+    "dateTime": "2023-05-31T03:15:00",
+    "closePrice": 0.003872,
+    "highPrice": 0.003872,
+    "lowPrice": 0.003854,
+    "openPrice": 0.003854
+  },
+  {
+    "dateTime": "2023-05-31T03:30:00",
+    "closePrice": 0.003884,
+    "highPrice": 0.003884,
+    "lowPrice": 0.003872,
+    "openPrice": 0.003872
+  },
+  {
+    "dateTime": "2023-05-31T03:45:00",
+    "closePrice": 0.003953,
+    "highPrice": 0.003953,
+    "lowPrice": 0.003884,
+    "openPrice": 0.003884
+  },
+  {
+    "dateTime": "2023-05-31T04:00:00",
+    "closePrice": 0.003924,
+    "highPrice": 0.003953,
+    "lowPrice": 0.003924,
+    "openPrice": 0.003953
+  },
+  {
+    "dateTime": "2023-05-31T04:15:00",
+    "closePrice": 0.003931,
+    "highPrice": 0.003936,
+    "lowPrice": 0.003923,
+    "openPrice": 0.003924
+  },
+  {
+    "dateTime": "2023-05-31T04:30:00",
+    "closePrice": 0.00393,
+    "highPrice": 0.003931,
+    "lowPrice": 0.00393,
+    "openPrice": 0.003931
+  },
+  {
+    "dateTime": "2023-05-31T04:45:00",
+    "closePrice": 0.003868,
+    "highPrice": 0.00393,
+    "lowPrice": 0.003827,
+    "openPrice": 0.00393
+  },
+  {
+    "dateTime": "2023-05-31T05:00:00",
+    "closePrice": 0.003759,
+    "highPrice": 0.003868,
+    "lowPrice": 0.003759,
+    "openPrice": 0.003868
+  },
+  {
+    "dateTime": "2023-05-31T05:15:00",
+    "closePrice": 0.00371,
+    "highPrice": 0.003774,
+    "lowPrice": 0.00365,
+    "openPrice": 0.003759
+  },
+  {
+    "dateTime": "2023-05-31T05:30:00",
+    "closePrice": 0.003654,
+    "highPrice": 0.003731,
+    "lowPrice": 0.003626,
+    "openPrice": 0.00371
+  },
+  {
+    "dateTime": "2023-05-31T05:45:00",
+    "closePrice": 0.003599,
+    "highPrice": 0.003654,
+    "lowPrice": 0.003599,
+    "openPrice": 0.003654
+  },
+  {
+    "dateTime": "2023-05-31T06:00:00",
+    "closePrice": 0.003589,
+    "highPrice": 0.003599,
+    "lowPrice": 0.003562,
+    "openPrice": 0.003599
+  },
+  {
+    "dateTime": "2023-05-31T06:15:00",
+    "closePrice": 0.003666,
+    "highPrice": 0.003666,
+    "lowPrice": 0.003557,
+    "openPrice": 0.003589
+  },
+  {
+    "dateTime": "2023-05-31T06:30:00",
+    "closePrice": 0.003627,
+    "highPrice": 0.003688,
+    "lowPrice": 0.003627,
+    "openPrice": 0.003666
+  },
+  {
+    "dateTime": "2023-05-31T06:45:00",
+    "closePrice": 0.00372,
+    "highPrice": 0.00372,
+    "lowPrice": 0.003627,
+    "openPrice": 0.003627
+  },
+  {
+    "dateTime": "2023-05-31T07:00:00",
+    "closePrice": 0.003634,
+    "highPrice": 0.00378,
+    "lowPrice": 0.003634,
+    "openPrice": 0.00372
+  },
+  {
+    "dateTime": "2023-05-31T07:15:00",
+    "closePrice": 0.003644,
+    "highPrice": 0.003683,
+    "lowPrice": 0.003634,
+    "openPrice": 0.003634
+  },
+  {
+    "dateTime": "2023-05-31T07:30:00",
+    "closePrice": 0.003633,
+    "highPrice": 0.003645,
+    "lowPrice": 0.003633,
+    "openPrice": 0.003644
+  },
+  {
+    "dateTime": "2023-05-31T07:45:00",
+    "closePrice": 0.003624,
+    "highPrice": 0.003633,
+    "lowPrice": 0.00357,
+    "openPrice": 0.003633
+  },
+  {
+    "dateTime": "2023-05-31T08:00:00",
+    "closePrice": 0.003616,
+    "highPrice": 0.003633,
+    "lowPrice": 0.003616,
+    "openPrice": 0.003624
+  },
+  {
+    "dateTime": "2023-05-31T08:15:00",
+    "closePrice": 0.003688,
+    "highPrice": 0.003688,
+    "lowPrice": 0.003616,
+    "openPrice": 0.003616
+  },
+  {
+    "dateTime": "2023-05-31T08:30:00",
+    "closePrice": 0.003682,
+    "highPrice": 0.003688,
+    "lowPrice": 0.003681,
+    "openPrice": 0.003688
+  },
+  {
+    "dateTime": "2023-05-31T08:45:00",
+    "closePrice": 0.003626,
+    "highPrice": 0.003682,
+    "lowPrice": 0.003626,
+    "openPrice": 0.003682
+  },
+  {
+    "dateTime": "2023-05-31T09:00:00",
+    "closePrice": 0.003611,
+    "highPrice": 0.003626,
+    "lowPrice": 0.003578,
+    "openPrice": 0.003626
+  },
+  {
+    "dateTime": "2023-05-31T09:15:00",
+    "closePrice": 0.003588,
+    "highPrice": 0.003611,
+    "lowPrice": 0.003579,
+    "openPrice": 0.003611
+  },
+  {
+    "dateTime": "2023-05-31T09:30:00",
+    "closePrice": 0.003574,
+    "highPrice": 0.003633,
+    "lowPrice": 0.003574,
+    "openPrice": 0.003588
+  },
+  {
+    "dateTime": "2023-05-31T09:45:00",
+    "closePrice": 0.00343,
+    "highPrice": 0.003574,
+    "lowPrice": 0.00343,
+    "openPrice": 0.003574
+  }
+]

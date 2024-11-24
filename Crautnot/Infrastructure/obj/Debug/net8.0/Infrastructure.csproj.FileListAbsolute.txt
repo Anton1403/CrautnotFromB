@@ -1,0 +1,29 @@
+C:\E\Projects\crautnotMain\Crautnot\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\E\Projects\crautnotMain\Crautnot\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\E\Projects\crautnotMain\Crautnot\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\E\Projects\crautnotMain\Crautnot\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\E\Projects\crautnotMain\Crautnot\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\E\Projects\crautnotMain\Crautnot\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\E\Projects\crautnotMain\Crautnot\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\E\Projects\crautnotMain\Crautnot\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\E\Projects\crautnotMain\Crautnot\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\E\Projects\crautnotMain\Crautnot\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json
+C:\E\Projects\crautnotMain\Crautnot\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\E\Projects\crautnotMain\Crautnot\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\E\Projects\crautnotMain\Crautnot\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\E\Projects\crautnotMain\Crautnot\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+C:\E\Projects\crautnotMain\Crautnot\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+C:\E\Projects\crautnotMain - Copy\Crautnot\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\E\Projects\crautnotMain - Copy\Crautnot\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\E\Projects\crautnotMain - Copy\Crautnot\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\E\Projects\crautnotMain - Copy\Crautnot\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\E\Projects\crautnotMain - Copy\Crautnot\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\E\Projects\crautnotMain - Copy\Crautnot\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\E\Projects\crautnotMain - Copy\Crautnot\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\E\Projects\crautnotMain - Copy\Crautnot\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\E\Projects\crautnotMain - Copy\Crautnot\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\E\Projects\crautnotMain - Copy\Crautnot\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\E\Projects\crautnotMain - Copy\Crautnot\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\E\Projects\crautnotMain - Copy\Crautnot\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\E\Projects\crautnotMain - Copy\Crautnot\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+C:\E\Projects\crautnotMain - Copy\Crautnot\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll

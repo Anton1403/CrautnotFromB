@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "Crautnot.Controllers.SyncController",
+    "Method": "Synchronize",
+    "RelativePath": "synchronize",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

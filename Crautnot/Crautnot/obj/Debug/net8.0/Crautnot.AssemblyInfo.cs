@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Crautnot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4bcd0c4773cf0f007f3e2c12232bbd3be93b1b87")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c652a9dc61bfca45592b60f0c6e95cbefcbdd8c8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Crautnot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Crautnot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

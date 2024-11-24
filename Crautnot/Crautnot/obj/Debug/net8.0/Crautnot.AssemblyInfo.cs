@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("6cc5b1f9-e980-4e31-b372-dee191c17073")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Crautnot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0d0ad3d5e633d860d25a9339854824b6651995b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Crautnot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Crautnot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

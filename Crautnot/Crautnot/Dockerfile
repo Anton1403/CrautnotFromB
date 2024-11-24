@@ -20,8 +20,8 @@ RUN dotnet clean "Crautnot.csproj" || true
 
 # Создание приложения с правами доступа root
 USER root
-RUN mkdir -p /app/build && chmod -R 777 /app/build
-RUN dotnet build "Crautnot.csproj" -c $BUILD_CONFIGURATION -o /app/build
+RUN mkdir -p /tmp/build && chmod -R 777 /tmp/build
+RUN dotnet build "Crautnot.csproj" -c $BUILD_CONFIGURATION -o /tmp/build
 
 # Публикация приложения
 FROM build AS publish

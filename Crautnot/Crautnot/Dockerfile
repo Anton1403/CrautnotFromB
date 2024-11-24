@@ -18,8 +18,9 @@ COPY . .
 WORKDIR "/src/Crautnot"
 RUN dotnet clean "Crautnot.csproj" || true
 
-# Создание приложения
-RUN mkdir -p /app/build && chmod -R 777 /app/build # Устанавливаем права на каталог сборки
+# Создание приложения с правами доступа root
+USER root
+RUN mkdir -p /app/build && chmod -R 777 /app/build
 RUN dotnet build "Crautnot.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 # Публикация приложения

@@ -10,7 +10,7 @@ RUN dotnet restore "Crautnot/Crautnot.csproj"
 COPY . .
 WORKDIR "/src/Crautnot"
 
-RUN dotnet build "Crautnot.csproj" -c Release -o /app/build
+RUN dotnet build "Crautnot.csproj" -c Release -o /app/build /p:UseAppHost=false
 
 FROM build AS publish
 RUN dotnet publish "Crautnot.csproj" -c Release -o /app/publish /p:UseAppHost=false

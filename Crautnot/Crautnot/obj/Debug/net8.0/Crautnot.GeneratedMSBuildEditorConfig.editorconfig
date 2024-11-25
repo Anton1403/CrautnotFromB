@@ -18,16 +18,8 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\E\Projects\crautnotMain - Copy\Crautnot\Crautnot
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/E/Projects/crautnotMain - Copy/Crautnot/Crautnot/Views/Home/Graphics.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxHcmFwaGljcy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/E/Projects/crautnotMain - Copy/Crautnot/Crautnot/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/E/Projects/crautnotMain - Copy/Crautnot/Crautnot/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/E/Projects/crautnotMain - Copy/Crautnot/Crautnot/Views/Shared/Error.cshtml]

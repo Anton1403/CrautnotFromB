@@ -9,6 +9,8 @@ COPY ["Crautnot/Crautnot/Crautnot.csproj", "Crautnot/"]
 RUN dotnet restore "Crautnot/Crautnot.csproj"
 COPY . .
 WORKDIR "/src/Crautnot"
+RUN rm -rf /app/build && mkdir -p /app/build
+
 RUN dotnet build "Crautnot.csproj" -c Release -o /app/build
 
 FROM build AS publish

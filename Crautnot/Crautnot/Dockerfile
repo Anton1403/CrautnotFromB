@@ -6,7 +6,7 @@ EXPOSE 8081
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 COPY ["Crautnot/Crautnot/Crautnot.csproj", "Crautnot/"]
-RUN dotnet restore "Crautnot/Crautnot/Crautnot.csproj"
+RUN dotnet restore "Crautnot/Crautnot.csproj"
 COPY . .
 WORKDIR "/src/Crautnot"
 RUN dotnet build "Crautnot.csproj" -c Release -o /app/build

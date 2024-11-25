@@ -18,9 +18,10 @@ public class ApplicationInstaller : IInstaller {
         services.AddTransient<ErrorNotifier>();
 
         // configuration
-        services.Configure<ExchangeOptions>(configuration.GetSection("ExchangeOptions"));
-        services.Configure<TelegramOptions>(configuration.GetSection("TelegramOptions"));
-        services.Configure<JobOptions>(configuration.GetSection("JobOptions"));
+        //services.Configure<ExchangeOptions>(configuration.GetSection("ExchangeOptions"));
+        //services.Configure<TelegramOptions>(configuration.GetSection("TelegramOptions"));
+        //services.Configure<JobOptions>(configuration.GetSection("JobOptions"));
+        services.AddScoped<TelegramOptions>();
 
         // client services
         services.AddScoped<BybitClientService>();

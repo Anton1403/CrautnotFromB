@@ -11,7 +11,7 @@ using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 var configuration = new ConfigurationBuilder()
-                    .AddJsonFile("appsettings.json") // добавление файла конфигурации
+                    //.AddJsonFile("appsettings.json", true) // добавление файла конфигурации
                     .Build();
 // Add services to the container.
 builder.Services.AddControllersWithViews();

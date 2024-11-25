@@ -17,7 +17,7 @@ var configuration = new ConfigurationBuilder()
                     //.AddJsonFile("appsettings.json") // добавление файла конфигурации
                     .Build();
 // Add services to the container.
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 builder.Services.InstallServicesInAssembly(configuration, typeof(Program));
 builder.Services.AddSwaggerGen(c => {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "Crautnot", Version = "v1" });

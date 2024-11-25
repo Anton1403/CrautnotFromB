@@ -4,6 +4,8 @@ using System.Net;
 using Crautnot.Client;
 using Crautnot.Services;
 using Crautnot.Quartz;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Crautnot.Installers;
 
@@ -18,9 +20,13 @@ public class ApplicationInstaller : IInstaller {
         services.AddTransient<ErrorNotifier>();
 
         // configuration
-        services.Configure<ExchangeOptions>(configuration.GetSection("ExchangeOptions"));
-        services.Configure<TelegramOptions>(configuration.GetSection("TelegramOptions"));
-        services.Configure<JobOptions>(configuration.GetSection("JobOptions"));
+        //services.Configure<ExchangeOptions>(configuration.GetSection("ExchangeOptions"));
+        //services.Configure<TelegramOptions>(configuration.GetSection("TelegramOptions"));
+        //services.Configure<JobOptions>(configuration.GetSection("JobOptions"));
+
+        services.AddScoped<ExchangeOptions>();
+        services.AddScoped<TelegramOptions>();
+        services.AddScoped<JobOptions>();
 
         // client services
         services.AddScoped<BybitClientService>();

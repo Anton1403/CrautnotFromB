@@ -5,13 +5,16 @@ using Crautnot.Models;
 using Crautnot.Quartz;
 using Crautnot.Services;
 using Crautnot.SignalR;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 var configuration = new ConfigurationBuilder()
-                    .AddJsonFile("appsettings.json") // добавление файла конфигурации
+                    //.AddJsonFile("appsettings.json") // добавление файла конфигурации
                     .Build();
 // Add services to the container.
 builder.Services.AddControllersWithViews();

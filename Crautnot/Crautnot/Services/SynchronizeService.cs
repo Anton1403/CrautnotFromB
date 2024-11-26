@@ -97,7 +97,7 @@ namespace Crautnot.Services
                     await telegramBot.Send(GenerateMessageForTelegram(new TelegramMessageDto {
                         Title = title,
                         Url = "https://www.binance.com/en/support/announcement",
-                        Date = utcNow
+                        Date = DateTime.Now
                     }));
                 }
             }
